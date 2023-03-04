@@ -107,4 +107,16 @@ const chats = [
     },
 ];
 
-module.exports = { chats }
+const users = [
+    {
+        name: "Pedro Arias",
+        email: "emanuel.arias01@gmail.com",
+        password: "pass"
+    },
+    {
+        name: "Cristina Luna",
+        email: "carl@gmail.com",
+        password: "pass2"
+    }
+]
+module.exports = { chats, users }
